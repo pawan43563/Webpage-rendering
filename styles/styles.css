@@ -74,19 +74,9 @@
   /* banner styling */
   .banner {
     /* border: 2px solid black; */
-    width: 100vw;
-    height: 80vh;
-    /* background-image: url("../images/banner2.png"); */
-    /* background-image: linear-gradient(to right, #f3fafe, #2f9ee5); */
-    /* background-image: linear-gradient(to left, #f3fafe, #2f9ee5); */
-    /* background-image: linear-gradient(#f3fafe98, #2f9fe552),
-      url("../images/banner2.png"); */
-    /* background-image: linear-gradient(
-        to right,
-        rgba(255, 255, 255, 0.438),
-        rgba(0, 0, 0, 0.753)
-      ),
-      linear-gradient(to left, #f3fafe5e, #2f9fe55b), url("../images/banner2.png"); */
+    width: 100%;
+    height: 100%;
+
     background-image: linear-gradient(
         to right,
         rgba(255, 255, 255, 0.438),
@@ -146,7 +136,7 @@
 }
 
 .footer-links a{
-  font-size: 40px;
+  font-size: 20px;
   margin: 10px;
   color:black;
 }
